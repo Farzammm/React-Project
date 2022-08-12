@@ -1,0 +1,26 @@
+.header {
+    background-color: #3120E0;
+    position: sticky;
+    top: 0;
+    padding: 5px ;
+    z-index: 1000;
+}
+.menu {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 20px;
+    list-style: none;
+    padding: 0;
+    margin: 10px;
+}
+.menu li a{
+    color: #F0EABE;
+    font-size: 1.2rem;
+    text-decoration: none;
+    font-weight: bolder;
+    transition: 0.3s;
+}
+.menu li a:hover {
+    color: #F0EABE;
+}
